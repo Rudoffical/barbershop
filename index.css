@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    background-image: url("http://uploads.webflow.com/57e36039ab1957093a7f7785/57e3603aab1957093a7f77cf_pattern-bg.jpg");
+    line-height: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-attachment: fixed;
+}
+
+.notransition * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 25px;
+    justify-content: space-between;
+
+}
+.host {
+    margin-bottom: 30px;
+}
+
+.header-element {
+    padding: 0 10px;
+    -webkit-user-select: none;
+    margin-right: 20px;
+    font-size: 20px;
+    transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+
+.header-element:hover {
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}
+
+.nav {
+    height: 80px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+@media (max-width: 2000px) {
+    .nav {
+        background-color: black;
+    }
+}
+
+.input {
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+.input:hover {
+    transition: 1s;
+    color: red;
+    outline: 1px solid red;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        height: 40px;
+    }
+    .zone {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content {
+        padding: 20px 10%;
+    }
+}
+
+.content {
+    padding: 20px 20%;
+}
+
+.price {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.man {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.use {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.prime {
+    margin-bottom: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+.prime li:before {
+    content: "\2666";
+    padding-right: 10px;
+}
+
+.best {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.zone {
+    display: flex;
+}
+
+.right {
+    font-size: 20px;
+    padding-top: 20px;
+    min-height: calc(100px - 80px);
+    margin-bottom: 30px;
+    width: 50%;
+
+}
+.sign {
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 9px 15px;
+    margin-bottom: 30px;
+
+}
+
+.sign:hover {
+    color: red;
+    outline: 1px solid red;
+    cursor: pointer;
+}
+
+.all {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.left {
+    width: 50%;
+    padding-right: 40px;
+}
+.are {
+    padding-bottom: 30px;
+}
+.table {
+    padding-bottom: 30px;
+    width: 100%;
+
+}
+.footer {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    justify-content: space-around;
+}
+.vk {
+    width: 41px;
+    height: 41px;
+    margin-right: 7px;
+    margin-left: 7px;
+    background-position: 46% 7px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+}
+.inside {
+    margin-left: 10%;
+}
+
+.adm:hover {
+    color: red;
+    outline: 1px solid red;
+    cursor: pointer;
+}
+
+.img {
+    text-align: justify;
+    display: flex;
+    padding-left: 18px;
+
+}
+.inst {
+    margin-left: 17px;
+}
+
+.facebook {
+    padding-top: 5px;
+}
+
+.vk:hover {
+    color: red;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
+
+.facebook:hover {
+    color: red;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
+
+.inst:hover {
+    color: red;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
+
+.inside {
+    text-align: center;
+}
